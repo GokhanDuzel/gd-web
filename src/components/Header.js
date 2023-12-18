@@ -1,17 +1,14 @@
 import "./Header.css";
+import logo from "../logo.png";
 
 const Header = () => {
   return (
     <div>
       <header>
-        <nav>
-          <div class="row">
-            <img
-              src="resources/css/img/logo.png"
-              alt="Omnifood logo"
-              class="logo"
-            />
-            <ul class="main-nav">
+        <nav className="navigation">
+          <img src={logo} alt="Omnifood logo" className="logo" />
+          <div className="navigation-menu">
+            <ul className="main-nav">
               <li>
                 <a href="#">Education</a>
               </li>
@@ -27,14 +24,14 @@ const Header = () => {
             </ul>
           </div>
         </nav>
-        <div class="hero-text-box">
+        <div className="hero-text-box">
           <h1>GÖKHAN DÜZEL</h1>
           <h3>Software Engineer</h3>
 
-          <a class="btn btn-full" href="#">
+          <a className="btn btn-full" href="#">
             About Me
           </a>
-          <a class="btn btn-ghost" href="#">
+          <a className="btn btn-ghost" href="#">
             Get Started
           </a>
         </div>
