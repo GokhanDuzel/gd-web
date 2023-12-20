@@ -15,10 +15,6 @@ const Experience = (props) => {
         onClick={() => setIsActive(!isActive)}
       >
         <div className="experience-header">
-          <ExperienceDate
-            startDate={props.experience.startDate}
-            endDate={props.experience.endDate}
-          />
           <div className="experience-description">
             <p>{props.experience.position}</p>
             <p>{props.experience.company}</p>

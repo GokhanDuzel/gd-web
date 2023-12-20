@@ -12,10 +12,6 @@ const About = () => {
       <h1 className="title">About Me</h1>
       <div className="section-container">
         <div className="about-details-container">
-          <div className="about-containers">
-            <Education />
-            <Experiences />
-          </div>
           <div className="text-container">
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic quis
@@ -26,14 +22,12 @@ const About = () => {
               reiciendis ea magnam? Nulla, impedit fuga!
             </p>
           </div>
+          <div className="about-containers">
+            <Education />
+            <Experiences />
+          </div>
         </div>
       </div>
-      <img
-        src="./assets/arrow.png"
-        alt="Arrow icon"
-        className="icon arrow"
-        onclick="location.href='./#experience'"
-      />
     </section>
   );
 };
