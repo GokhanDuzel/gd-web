@@ -14,7 +14,7 @@ a:hover {
 
 .container {
     position: relative;
-    padding: 0 2rem;
+    padding: 0 1rem;
 }
 
 .nav {
@@ -44,7 +44,7 @@ a:hover {
     padding: 0.5rem 1rem;
     border: none;
     outline: none;
-    border-radius: 20px;
+    border-radius: 200px;
     font-size: 0.8rem;
     font-weight: bold;
     cursor: pointer;

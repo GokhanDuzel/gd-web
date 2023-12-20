@@ -15,20 +15,20 @@ const NavBar = () => {
         </div>
         <ul className="nav-menu">
           <li>
-            <a href="#">Home</a>
+            <a href="#">About</a>
+          </li>
+          <li>
+            <a href="#">Experience</a>
           </li>
           <li>
             <a href="#">Projects</a>
-          </li>
-          <li>
-            <a href="#">About</a>
           </li>
           <li>
             <a href="#">Contact</a>
           </li>
         </ul>
         <a className="action-btn" href="#">
-          Get Started
+          Download CV
         </a>
         <div className="toggle-btn">
           {navExpanded ? (
@@ -65,7 +65,7 @@ const NavBar = () => {
           </li>
           <li>
             <a className="action-btn" href="#">
-              Get Started
+              Download CV
             </a>
           </li>
         </nav>
