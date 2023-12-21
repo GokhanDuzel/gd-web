@@ -1,31 +1,31 @@
 import "./About.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faAngleDown } from "@fortawesome/free-solid-svg-icons";
+import { faHandPeace } from "@fortawesome/free-solid-svg-icons";
 import Education from "./Education";
 import Experiences from "./Experiences";
 
 const About = () => {
   return (
-    <section className="" id="about">
-      <p className="warmer">Get To Know More</p>
-      <FontAwesomeIcon className="arrow" icon={faAngleDown} />
+    <section className="about-section" id="about">
       <h1 className="title">About Me</h1>
       <div className="section-container">
         <div className="about-details-container">
-          <div className="text-container">
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic quis
-              reprehenderit et laborum, rem, dolore eum quod voluptate
-              exercitationem nobis, nihil esse debitis maxime facere minus sint
-              delectus velit in eos quo officiis explicabo deleniti dignissimos.
-              Eligendi illum libero dolorum cum laboriosam corrupti quidem,
-              reiciendis ea magnam? Nulla, impedit fuga!
-            </p>
-          </div>
-          <div className="about-containers">
+          <div className="text-ed-container">
+            <div className="text-container">
+              <h4>
+                Hi! <FontAwesomeIcon icon={faHandPeace} />
+              </h4>
+              <p>
+              My name is Gökhan. I am a passionate Software Engineer
+              From Ottawa. I graduated from The University of Ottawa Software 
+              Engineering Program. I am currently improving my skills on 
+              Full-Stack Development, Cloud Technologies and Blockchain Technologies.
+              You can learn more about my projects below.
+              </p>
+            </div>
             <Education />
-            <Experiences />
           </div>
+          <Experiences />
         </div>
       </div>
     </section>

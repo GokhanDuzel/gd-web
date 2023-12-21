@@ -9,7 +9,7 @@ import {
 const Experiences = () => {
   return (
     <div>
-      <h3 className="part-title">Experiences</h3>
+      <h3 className="part-title">Experiences:</h3>
       <div className="experiences-container">
         <div className="experiences-details-container">
           <FontAwesomeIcon icon={faTruckPickup} />

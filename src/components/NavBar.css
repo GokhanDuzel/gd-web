@@ -12,10 +12,6 @@ a:hover {
     color: orange;
 }
 
-.container {
-    position: relative;
-    padding: 0 1rem;
-}
 
 .nav {
     width: 100%;
@@ -25,7 +21,7 @@ a:hover {
     display: flex;
     align-items: center;
     justify-content: space-between;
-
+    
 }
 
 .nav .logo a {
@@ -38,7 +34,8 @@ a:hover {
     gap: 2rem;
 }
 
-.action-btn {
+.action-btn:link,
+.action-btn:visited {
     background-color: orange;
     color: #fff;
     padding: 0.5rem 1rem;
@@ -48,12 +45,13 @@ a:hover {
     font-size: 0.8rem;
     font-weight: bold;
     cursor: pointer;
-    transition: scale 0.2 ease;
+    transition: background-color 0.2s, border 0.2s, color 0.2s;
 }
 
 .action-btn:hover {
     scale: 1.05;
     color: #fff;
+    background-color: #eb750d;
 }
 
 .action-btn:active {

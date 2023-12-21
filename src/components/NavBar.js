@@ -8,17 +8,14 @@ const NavBar = () => {
   const [navExpanded, setNavExpanded] = useState(false);
 
   return (
-    <div className="container">
+    <div>
       <nav className="nav">
         <div className="logo">
           <a href="#">GD</a>
         </div>
         <ul className="nav-menu">
           <li>
-            <a href="#">About</a>
-          </li>
-          <li>
-            <a href="#">Experience</a>
+            <a href="#">About Me</a>
           </li>
           <li>
             <a href="#">Projects</a>
