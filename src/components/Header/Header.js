@@ -5,23 +5,23 @@ import { faAngleDown } from "@fortawesome/free-solid-svg-icons";
 
 const Header = () => {
   return (
-    <div>
+    <>
       <NavBar />
-      <div class="hero">
+      <div className="hero">
         <h1>GÖKHAN DÜZEL</h1>
         <h3>SOFTWARE ENGINEER</h3>
         <div className="btn-grp">
-          <a class="btn btn-full" href="#">
+          <a className="btn btn-full" href="#">
             Download CV
           </a>
-          <a class="btn btn-ghost" href="#">
+          <a className="btn btn-ghost" href="#">
             Contact Info
           </a>
         </div>
         <p className="warmer">Get To Know More</p>
         <FontAwesomeIcon className="arrow" icon={faAngleDown} />
       </div>
-    </div>
+    </>
   );
 };
 

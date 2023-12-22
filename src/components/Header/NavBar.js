@@ -15,13 +15,13 @@ const NavBar = () => {
         </div>
         <ul className="nav-menu">
           <li>
-            <a href="#">About Me</a>
+            <a href="#about-me">About Me</a>
           </li>
           <li>
-            <a href="#">Projects</a>
+            <a href="#projects">Projects</a>
           </li>
           <li>
-            <a href="#">Contact</a>
+            <a href="#contact">Contact</a>
           </li>
         </ul>
         <a className="action-btn" href="#">
@@ -52,13 +52,13 @@ const NavBar = () => {
             <a href="#">Home</a>
           </li>
           <li>
-            <a href="#">Project</a>
+            <a href="#projects">Project</a>
           </li>
           <li>
-            <a href="#">About</a>
+            <a href="#about-me">About</a>
           </li>
           <li>
-            <a href="#">Contact</a>
+            <a href="#contact">Contact</a>
           </li>
           <li>
             <a className="action-btn" href="#">

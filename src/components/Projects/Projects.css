@@ -1,0 +1,36 @@
+#projects {
+  margin: 3rem auto;
+  position: relative;
+}
+
+#projects menu {
+  margin: 1rem 0;
+  padding: 0;
+  display: flex;
+  gap: 0.5rem;
+  list-style: none;
+  justify-content: center;
+  align-items: center;
+}
+
+#projects menu button {
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 20px;
+  background-color: transparent;
+  color: #ffffff;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+#projects menu button:hover {
+  background-color: #eb750d;
+  color: #ebe7ef;
+}
+
+#projects menu button.active {
+  background-color: orange;
+  color: #ebe7ef;
+}
+

@@ -6,7 +6,7 @@ import Experiences from "./Experiences";
 
 const About = () => {
   return (
-    <section className="about-section" id="about">
+    <section className="about-section" id="about-me">
       <h1 className="title">About Me</h1>
       <div className="section-container">
         <div className="about-details-container">
