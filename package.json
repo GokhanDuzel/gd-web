@@ -1,7 +1,7 @@
 {
   "name": "gd-web",
   "version": "0.1.0",
-  "homepage": "https://GokhanDuzel.github.io",
+  "homepage": "https://GokhanDuzel.github.io/gd-web",
   "private": true,
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.5.1",
