@@ -13,6 +13,10 @@ const Contact = () => {
     <section id="contact">
       <h1 className="title">Contact Me</h1>
       <div className="contact-info-upper-container">
+        <div className="contact-info-container">
+          <FontAwesomeIcon className="icon contact-icon" icon={faEnvelope} />
+          <p>email@example.com</p>
+        </div>
         {/* Existing contact info */}
         <div className="contact-info-container">
           <FontAwesomeIcon className="icon contact-icon" icon={faLinkedin} />
@@ -28,10 +32,7 @@ const Contact = () => {
           <a href="https://github.com/yourprofile">GitHub</a>
         </div>
       </div>
-      <div className="contact-info-container">
-        <FontAwesomeIcon className="icon contact-icon" icon={faEnvelope} />
-        <p>email@example.com</p>
-      </div>
+
       {/* New contact form */}
       <div className="contact-form-container">
         <form>
