@@ -9,6 +9,10 @@
     font-size: 3rem;
     text-align: center;
     color: #fff;
-    margin-bottom: 6rem;
+    margin-bottom: 8rem;
   }
   
+
+section {
+    margin-bottom: 10rem;
+}

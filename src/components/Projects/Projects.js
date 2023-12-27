@@ -13,9 +13,9 @@ const Projects = () => {
   }
 
   return (
-    <main>
-      <section id="projects">
-        <h1 className="title">PROJECTS</h1>
+    <section>
+      <div id="projects">
+        <h1 className="title">Project</h1>
         <menu>
           {PROJECT_DATA.map((project) => (
             <TabButton 
@@ -28,8 +28,8 @@ const Projects = () => {
           ))}
         </menu>
         {selectedProject && <Project {...selectedProject} />}
-      </section>
-    </main>
+      </div>
+    </section>
   );
 };
 

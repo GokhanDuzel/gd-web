@@ -22,7 +22,7 @@ const ImageSlider = ({ images }) => {
   }
 
   return (
-    <section className="slider">
+    <div className="slider">
       <FontAwesomeIcon
         className="left-arrow"
         icon={faCircleLeft}
@@ -46,7 +46,7 @@ const ImageSlider = ({ images }) => {
           </div>
         );
       })}
-    </section>
+    </div>
   );
 };
 

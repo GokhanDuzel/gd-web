@@ -1,75 +1,82 @@
-/* SECTIONS */
+
 .about-section {
-  height: 96vh;
-  width: 90%;
-  margin: auto;
-  margin-top: 9rem;
+  height: auto;
+  margin: auto 2rem;
+  margin-top: 4rem;
+  padding: 1rem;
   box-sizing: border-box;
-  min-height: fit-content;
   align-items: center;
   justify-content: center;
   display: flex;
   flex-direction: column;
-  margin-bottom: 15rem;
+  color: #333; /* Modern text color */
+  background: linear-gradient(135deg, #e0eafc, #cfdef3); /* Gradient background */
 }
 
 .section-container {
-  gap: 4rem;
-  height: 80%;
+  gap: 2rem;
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap; /* Wrap for smaller screens */
 }
 
 .part-title {
-  font-size: 2rem;
-  text-align: left;
-  color: #fff;
+  font-size: 2.5rem;
+  text-align: center;
+  color: #2a2a2a; /* Updated color */
+  margin-bottom: 1rem;
 }
 
 .text-ed-container {
-  margin: auto;
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* Two-column grid layout */
+  gap: 1rem;
 }
 
 .text-container {
-  width: 50%;
-  text-align: left;
+  background: white;
+  padding: 2rem;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+  transition: transform 0.3s ease-in-out;
+}
+
+.text-container:hover {
+  transform: translateY(-10px); /* Hover effect */
 }
 
 .text-container h4 {
-  font-size: 2rem;
-  color: #fff;
+  font-size: 1.8rem;
+  color: #333; /* Darker text for contrast */
 }
 
 .text-container p {
-  font-size: 1.5rem;
-  color: #fff;
-}
-
-/* ABOUT SECTION */
-
-.about-containers {
-  gap: 2rem;
-  margin-bottom: 2rem;
-  margin-top: 2rem;
-}
-
-.about-details-container {
-  justify-content: center;
-  flex-direction: column;
+  font-size: 1.2rem;
+  color: #555; /* Slightly lighter text color */
 }
 
 .about-pic {
-  border-radius: 2rem;
+  border-radius: 50%; /* Circular image */
+  width: 150px;
+  height: 150px;
+  object-fit: cover; /* Ensure the image fits well */
 }
 
 .details-container {
   padding: 1.5rem;
   flex: 1;
   background: white;
-  border-radius: 2rem;
-  border: rgb(53, 53, 53) 0.1rem solid;
-  border-color: rgb(163, 163, 163);
+  border-radius: 15px;
+  border: 1px solid #ddd;
   text-align: center;
 }
 
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 768px) {
+  .text-ed-container {
+    grid-template-columns: 1fr; /* Single column on small screens */
+  }
+
+  .about-section {
+    margin: auto 0;
+  }
 }

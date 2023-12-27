@@ -1,6 +1,6 @@
 .slider {
   position: relative;
-  height: 100vh;
+ 
   display: flex;
   width: 90%;
   justify-content: center;
@@ -44,6 +44,7 @@
     opacity: 1;
     transition-duration: 1s;
     transform: scale(1.08);
+    margin-top: 1rem;
 }
 
 #projects menu button {
@@ -55,6 +56,19 @@
     font-size: 1.2rem;
     cursor: pointer;
     transition: all 0.2s ease-in-out;
+  }
+
+  .slider .right-arrow, .slider .left-arrow {
+    position: absolute;
+    top: 50%;
+    font-size: 3rem;
+    color: #fff;
+    z-index: 10;
+    cursor: pointer;
+    user-select: none;
+    background-color: rgba(0, 0, 0, 0.5); /* Background for visibility */
+    border-radius: 50%; /* Circular shape */
+    padding: 0.5rem;
   }
   
   .slider .right-arrow :hover,
@@ -69,4 +83,16 @@
     color: orange;
   }
   
+  
+@media (max-width: 768px) {
+  .slider .image {
+    width: 100%; /* Adjust image width for smaller screens */
+    top: 0;
+  }
+
+  .slider .right-arrow, .slider .left-arrow {
+    font-size: 2rem; /* Smaller arrows for mobile */
+  }
+}
+
   
