@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/gd-web/static/css/main.986c3c05.css",
+    "main.js": "/gd-web/static/js/main.da7862f6.js",
+    "static/js/787.af17050b.chunk.js": "/gd-web/static/js/787.af17050b.chunk.js",
+    "static/media/dealership:get.png": "/gd-web/static/media/dealership:get.644b9a0548fe8cb2d597.png",
+    "static/media/login.png": "/gd-web/static/media/login.9a7ccdd5f7bba0fadc5d.png",
+    "static/media/dealerships.png": "/gd-web/static/media/dealerships.07fad2a3d07c9e2d053c.png",
+    "static/media/dealership_details.png": "/gd-web/static/media/dealership_details.1467aae3c83b674c162d.png",
+    "index.html": "/gd-web/index.html",
+    "main.986c3c05.css.map": "/gd-web/static/css/main.986c3c05.css.map",
+    "main.da7862f6.js.map": "/gd-web/static/js/main.da7862f6.js.map",
+    "787.af17050b.chunk.js.map": "/gd-web/static/js/787.af17050b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.986c3c05.css",
+    "static/js/main.da7862f6.js"
+  ]
+}
